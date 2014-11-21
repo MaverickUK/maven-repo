@@ -1,0 +1,21 @@
+mvn install:install-file -DgroupId=123 -DartifactId=123 Dversion=0.90 -Dpackaging=swc -DFile=H:\corelib\bin\corelib.swc -DlocalRepository=H:\maven-repo\
+
+mvn deploy:deploy-file -Dfile=./FlexUnit4CIListener.swc -Durl=http://nexus.mycompany.com/nexus/content/repositories/thirdparty -DgroupId=com.adobe.flexunit -DartifactId=cilistener -Dversion=4.0-beta-2 -Dpackaging=swc -DrepositoryId=mycompany-thirdparty-repo
+
+
+
+mvn install:install-file "-DgroupId=com.sparkol" "-DartifactId=swc" "Dversion=0.90" "-Dpackaging=swc" "-DFile=H:\corelib\bin\corelib.swc" "-DlocalRepository=H:\maven-repo\"
+
+
+
+mvn install:install-file "-DgroupId=org.mozilla" "-DartifactId=jss" "-Dversion=4.2.5" "-Dpackaging=jar" "-Dfile=C:\Users\AArmijos\workspace\componentes-1.0.4\deps\jss-4.2.5.jar"
+
+
+
+mvn install:install-file "-Dfile=cobra.jar" "-DgroupId=com.cobra" "-DartifactId=cobra" "-Dversion=0.98.4" "-Dpackaging=jar" "-DgeneratePom=true"
+
+
+mvn install:install-file "-Dfile=H:\corelib\bin\corelib.swc" "-DgroupId=com.sparkol" "-DartifactId=corelib" "-Dversion=0.90" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepository=H:\maven-repo\"
+
+
+mvn install:install-file "-Dfile=H:\corelib\bin\corelib.swc" "-DgroupId=com.sparkol" "-DartifactId=corelib" "-Dversion=0.90" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
