@@ -1,0 +1,13 @@
+Maven for Flex/AIR projects
+https://code.google.com/p/jianwikis/wiki/MavenForFlexAirProject
+
+Flex and Maven with Flexmojos:
+http://www.adobe.com/devnet/flex/articles/flex-maven-flexmojos-pt1.html
+http://www.adobe.com/devnet/flex/articles/flex-maven-flexmojos-pt2.html
+http://www.adobe.com/devnet/flex/articles/flex-maven-flexmojos-pt3.html
+
+Building AIR applications:
+https://flexmojos.atlassian.net/wiki/display/FLEXMOJOS/Building+AIR+applications
+
+Creating a Flex Mojos Project from an Archetype
+http://books.sonatype.com/mvnref-book/reference/flex-dev-sect-creating-with-archetype.html#ex-flex-dev-app-pom

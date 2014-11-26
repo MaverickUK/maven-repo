@@ -19,3 +19,14 @@ mvn install:install-file "-Dfile=H:\corelib\bin\corelib.swc" "-DgroupId=com.spar
 
 
 mvn install:install-file "-Dfile=H:\corelib\bin\corelib.swc" "-DgroupId=com.sparkol" "-DartifactId=corelib" "-Dversion=0.90" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+
+
+# Creation of Maven packages for other VideoScribe dependencies
+
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\airxzip.swc" "-DgroupId=com.sparkol" "-DartifactId=airxzip" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\AlivePDF.swc" "-DgroupId=com.sparkol" "-DartifactId=AlivePDF" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\dropbox-r33.swc" "-DgroupId=com.sparkol" "-DartifactId=dropbox" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\ffmpeg.swc" "-DgroupId=com.sparkol" "-DartifactId=ffmpeg" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\greensock.swc" "-DgroupId=com.sparkol" "-DartifactId=greensock" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\jpegencoder-NOLEAK.swc" "-DgroupId=com.sparkol" "-DartifactId=jpegencoder-NOLEAK" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
+mvn install:install-file "-Dfile=H:\videoscribe2-jenkins\lib\shineMP3_alchemy.swc" "-DgroupId=com.sparkol" "-DartifactId=shineMP3_alchemy" "-Dversion=1" "-Dpackaging=swc" "-DgeneratePom=true" "-DlocalRepositoryPath=H:\maven-repo"
